@@ -1,20 +1,20 @@
 import './App.css';
 
-/*function terminal() {
+/*const terminal = () => {
   return (
-    <div className="terminal">
+    <>
         <p>
           what up
         </p>
-    </div>
+    </>
   );
-}
-*/
+}*/
+
 
 function App() {
   return (
     <div className="App">
-        <p>t</p>
+        <p>tdjhfvofdhgf</p>
     </div>
   );
 }
