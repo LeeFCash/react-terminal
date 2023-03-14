@@ -1,20 +1,20 @@
 import './App.css';
 
-/*const terminal = () => {
-  return (
-    <>
-        <p>
-          what up
-        </p>
-    </>
-  );
-}*/
-
 
 function App() {
+  const screen1 = "null";
   return (
     <div className="App">
-        <p>tdjhfvofdhgf</p>
+        {screen1 ? (
+          <>
+          <input id="App-input"></input>
+          <button id="App-button">hello</button>
+          </>
+        ) : (
+          <>
+          <p>Nothing</p>
+          </>
+        )}
     </div>
   );
 }
